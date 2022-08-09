@@ -4,11 +4,11 @@ let alphabetGlobalID=1
 const users = []
 const bcryptjs = require('bcryptjs');
 
-const {CONNECTION_STRING} = process.env;
+const {DATABASE_URL} = process.env;
 
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize(CONNECTION_STRING, {
+const sequelize = new Sequelize(DATABASE_URL, {
     dialect: 'postgres',
     dialectOptions: {
         ssl: {
@@ -185,18 +185,7 @@ module.exports = {
                 delete censored.password
                 res.status(200).send(censored)
             })
-            // res.status(200).send(dbRes[0])).catch(err => console.log(err))
-        // for (let i = 0; i < users.length; i++) {
-        //     if (users[i].username === username) {
-        //       const authenticated = bcryptjs.compareSync(password,users[i].password);
-        //       if(authenticated ===true){
-        //         let userReturn = {...users[i]}
-        //         delete userReturn.hashed;
-        //         res.status(200).send(userReturn)
-        //       }
-        //     }
-        //   }
-        //   res.status(400).send("User not found.")
+            
     },
 
     register: (req, res) => {
@@ -213,16 +202,5 @@ module.exports = {
                 delete censored.password
                 res.status(200).send(censored)
             } )
-            //return 200 meaning successfull 
-            //return 400 meaingig not successfull 
-       
-        //   let user = {
-        //       username,
-        //       email,
-        //       first_name,
-        //       last_name,
-        //       password:hashed,
-        //       cards: []
-        //   }
     },
 }
