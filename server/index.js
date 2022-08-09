@@ -10,11 +10,11 @@ app.use(express.json())
 app.use(cors())
 
 
-app.use(express.static(path.join(__dirname, "../Public")))
+app.use(express.static(path.join(__dirname, "../public")))
 
-app.get("/home", (req, res) => res.sendFile(path.join(__dirname, "../Public/home.html")))
-app.get("/learn", (req, res)=> res.sendFile(path.join(__dirname, "../Public/learn.html")))
-app.get("/login", (req, res)=> res.sendFile(path.join(__dirname, "../Public/login.html")))
+app.get("/home", (req, res) => res.sendFile(path.join(__dirname, "../public/home.html")))
+app.get("/learn", (req, res)=> res.sendFile(path.join(__dirname, "../public/learn.html")))
+app.get("/login", (req, res)=> res.sendFile(path.join(__dirname, "../public/login.html")))
 
 app.post('/seed', seed)
 
