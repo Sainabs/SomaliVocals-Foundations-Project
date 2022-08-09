@@ -3,7 +3,7 @@ const express = require('express')
 const app = express()
 const cors = require('cors')
 const path = require('path')
-const {SERVER_PORT} = process.env
+const {PORT} = process.env
 const {seed, getAlphabets, getWordListbyIDandLevel, login, register} = require('./controller.js')
 
 app.use(express.json())
@@ -29,6 +29,6 @@ app.get('/wordslist', getWordListbyIDandLevel);
 app.post('/api/login', login)
 app.post('/api/register', register)
 
-app.listen(SERVER_PORT, () => console.log(`up on ${SERVER_PORT}`))
+app.listen(PORT, () => console.log(`up on ${PORT}`))
 
 
