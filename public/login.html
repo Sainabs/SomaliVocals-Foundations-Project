@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SomaliVocals</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<header>
+    <h1>SomaliVocals</h1>
+</header>
+
+<body>
+
+    <content>
+        <nav>
+                <a class="crumb" href="/home">Home</a>
+                
+        </nav>
+    </content>
+    <br>
+    <br>
+    <main>
+        <div class="vertical">
+                <h2>Login or Register </h2>
+            
+
+            <div class="horizontal">
+                <form id="login-form">
+                    <h3>Login</h3>
+                    <input 
+                        type='text'
+                        id="login-username"
+                        placeholder="Username"/>
+                    <input 
+                        type='password'
+                        id="login-password"
+                        placeholder='Password'/>
+                        <br>
+                        <br>
+                    <button>Sign In</button>
+                     <!-- works when anywhere in the page is clicked -->
+                    <!-- <script>
+                            document.onclick = function(){
+                                window.location.href = './learn.html';
+                            }
+                        </script> -->
+                    <!-- <nav>
+                        <button onclick="window.location='./learn.html';" >Sign In</button> 
+                    </nav> -->
+                </form>
+                <br>
+                <form id="register-form">
+                    <br>
+                    <h3>Register</h3>
+                    <br>
+                    <input 
+                        type='text'
+                        id="register-username"
+                        placeholder="Username"/>
+                    <input 
+                        type='text'
+                        id="register-email"
+                        placeholder='Email'/>
+                    <input 
+                        type='text'
+                        id="register-firstName"
+                        placeholder='First Name'/>
+                    <input 
+                        type='text'
+                        id="register-lastName"
+                        placeholder='Last Name'/>
+                    <input 
+                        type='password'
+                        id="register-password"
+                        placeholder='Password'/>
+                    <!-- <input 
+                        type='password'
+                        id="register-password-2"
+                        placeholder='Confirm Password'/> -->
+                        <br>
+                    <button type="submit">Sign Up</button>
+                    <br>
+                </form>
+            </div>
+        </div>
+        <section id="user-info"></section>
+
+    </main>
+    <!-- <img id= "clothing" src="./last-image.png" alt="clothing"> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

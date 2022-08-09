@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-image: url(./images/learn-image.png)
+}
+    
+h1{ 
+    background-color: rgb(107, 176, 217);
+    text-align: center; 
+    padding: 25px;
+    margin: 0;
+    width: 100vw;
+    font-weight: bolder;
+    font-size:xxx-large;
+}
+    
+    
+nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(14, 10, 5);
+    width: 100vw;
+}
+
+ol{
+    display: flex;
+    justify-content: space-between;
+    /* font-color:black; */
+    background-color: rgb(223, 205, 182);
+    font-size: large;
+    font-weight: bold;
+    position: relative top;
+    
+}
+
+.crumb {
+    margin-right: 2em;
+    display: inline;
+    margin: 16px;
+    color: rgb(99, 95, 183);
+    background-color: rgb(223, 205, 182);
+    font-size: large;
+    font-weight: bold;
+    text-decoration: underline;
+} 
+
+h2{ 
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(107, 176, 217);
+}
+
+.alphabet-container{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.words-title{
+
+}
+
+label{
+
+}
+
+.btn{
+    background-color: rgb(107, 176, 217);
+    width: 200px;
+    height: 30px;
+    color: rgb(19, 24, 27);
+    border: solid;
+    margin: 5px; 
+  }
+

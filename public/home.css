@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+        /* background-image: url(./images/login-image4.png) */
+        background-image: url(./images/home3.png);
+    }
+    
+    h1{ 
+        background-color: rgb(107, 176, 217);
+        text-align: center; 
+        padding: 25px;
+        margin: 0;
+        font-size:xxx-large;
+    }
+    
+    
+    nav {
+        border-bottom: 2px solid rgb(14, 10, 5);
+    }
+    
+    .crumb {
+        margin-right: 2em;
+        display: inline;
+        color: rgb(122, 122, 170);
+        font-size: large;
+        font-weight: bold;
+        font: color;
+    }
+    
+    ol{
+        display: flex;
+        justify-content: space-between;
+        /* font-color:black; */
+        /* background-color: rgb(255, 168, 86); */
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    
+    .info{
+        /* border: solid black 3px; */
+        /* position: relative;top: 100px; ;
+        position: relative;left: 30px; */
+        width: 470px;
+        font-size: large;
+        text-align: center;
+        background-color: rgb(223, 205, 182);
+        border: 13px solid rgb(255, 168, 86);
+        
+    }
+    
+    
+    
+    #books{
+       height: 380px;
+       color: rgb(106, 167, 167);
+       
+    }
+    
+    
+    
+    .container{
+        display: flex;
+        margin-top: 150px;
+        justify-content: space-around;
+    }
+    
+    
+    
+    
+    
+    
