@@ -3,7 +3,9 @@ body{
     display:flex;
     flex-direction:column;
     align-items: center;
-    background-image: url(./images/learn-image.png)
+    background: url(./images/learn-image.png) no-repeat center center fixed;
+    background-size: cover;
+
 }
     
 h1{ 
@@ -19,32 +21,42 @@ h1{
     
 nav {
     display: flex;
-    justify-content: space-between;
     border-bottom: 2px solid rgb(14, 10, 5);
     width: 100vw;
+    justify-content: space-between; 
+    margin-top: 20px; 
 }
 
 ol{
     display: flex;
-    justify-content: space-between;
-    /* font-color:black; */
-    background-color: rgb(223, 205, 182);
     font-size: large;
     font-weight: bold;
-    position: relative top;
     
-}
+} 
+
+
+
 
 .crumb {
-    margin-right: 2em;
+    margin: 1em;
     display: inline;
-    margin: 16px;
-    color: rgb(99, 95, 183);
-    background-color: rgb(223, 205, 182);
+    color: black;
+    background-color: white;
     font-size: large;
     font-weight: bold;
-    text-decoration: underline;
+    border:solid black;
+    padding: 3px;
+    text-decoration: none;
+    
+    justify-content: space-evenly;
+    
+    
 } 
+a{
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+  }
 
 h2{ 
     display: flex;
@@ -54,28 +66,28 @@ h2{
     background-color: rgb(107, 176, 217);
 }
 
-.alphabet-container{
-    display: flex;
-    flex-direction: column;
-    height: 100px;
-    width: 200px;
-    margin-top: 20px;
+#container-container{
+    border: solid black;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+
 }
 
-/* .words-title{
-image-rendering: initial;
+
+#audio{
+    padding: 20px;
 }
 
-label{
-
-} */
 
 .btn{
     background-color: rgb(107, 176, 217);
-    width: 200px;
-    height: 30px;
+    
     color: rgb(19, 24, 27);
     border: solid;
     margin: 5px; 
+    padding: 10px;
+    border-radius: 5px;
   }
 

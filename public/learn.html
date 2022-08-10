@@ -1,22 +1,17 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	<title>SomaliVocals</title>
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script> -->
+	<title> SomaliVocals</title>
 	<link href="learn.css" rel="stylesheet">
 
 
     <header>
-        <h1>SomaliVocals</h1>
+        <h1>SomaliVocals &#127897;</h1>
     </header>
     
 
 	</head>
-    <content>
+    <content id='learn-contents'>
         <nav>
                 </div>
                 <a class="crumb"href="/home">Home</a>
@@ -25,12 +20,16 @@
                 <a class="crumb" onclick="logout()">Logout</a>
         </nav>
     </content>
-	<body>
 
+	<body>
         <main>
-            <aside>
+           <br>
+           <br>
+           <br>
+        
+                <div id="container-container">
                 <h2>Learn</h2>
-    
+           
                 <section class="alphabet-container">
 
                     <form id="alphabet">
@@ -38,23 +37,26 @@
                         <label for="choose alphabet">Alphabets:</label>
                         <select name = "choose alphabet" id="alphabets-select"></select>
                         <br>
-
+                        <br>
                         <label for="level">Level:</label>
                         <select id="level">
+                    
                             <!-- <option value="" disabled selected>Select your option</option> -->
                             <option value="Beginner">Beginner</option>
                             <option value="Intermediate">Intermediate</option>
                         </select>
-
-                        <br> 
+                        <br>
+                        <br>
+                        
                         <input onclick="showWords()"  type="button" value="Show Words" class="btn" id="alphabet"> 
-
                     </form>
 
                 </section>
-            </aside>
+            
             
             <section id="learn-container"></section>
+        </div>
+
         </main>
         <!-- <img id= "clothing" src="./last-image.png" alt="clothing"> -->
          <script src="https://unpkg.com/axios@0.27.2/dist/axios.min.js"></script> 

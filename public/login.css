@@ -25,15 +25,13 @@ h1{
 nav {
   display: flex;
   justify-content: space-between;
-border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
   width: 100vw;
 }
 
 ol{
   display: flex;
   justify-content: space-between;
-  /* font-color:black; */
-  background-color: rgb(223, 205, 182); 
   font-size: large;
   font-weight: bold;
 
@@ -42,12 +40,20 @@ ol{
 .crumb {
   margin-right: 2em;
   display: inline;
-  margin: 16px;
-  color: rgb(86, 86, 207);
- /* background-color: rgb(223, 205, 182);   */
+  margin: 22px;
   font-size: large;
   font-weight: bolder;
+  border:solid black;
+  padding: 3px;
+  
 } 
+
+a{
+  color: black;
+  text-decoration: none;
+  
+}
+
 form h3 {
   color: snow;
 }
@@ -95,16 +101,17 @@ form h1 {
 }
 
 button {
-  background-color: rgba(39, 157, 226, 0.933);
+   background-color: rgb(107, 176, 217);
+  /* //border: 1px solid rgb(27, 35, 35); rgb(107, 176, 217);  */ 
   width: 75px;
   height: 40px;
   color: rgb(19, 24, 27);
-  text-size-adjust: 25px;
+  text-size-adjust: 50px;
   border: solid;
   margin: 5px;
   border-radius: 4px;
   width: 60%;
-  border: 1px solid rgb(27, 35, 35);
+  border: 1px solid rgb(27, 35, 35); 
   font: weight 20px;
 }
 
