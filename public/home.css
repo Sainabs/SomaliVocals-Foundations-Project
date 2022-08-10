@@ -70,9 +70,8 @@ body{
     h2{
         font-size:xx-large;
         width:15em;
-        font-style: italic;
         text-align: center;
-        color: rgb(107, 176, 217);  
+        color: black 
     } 
     
     #books{
