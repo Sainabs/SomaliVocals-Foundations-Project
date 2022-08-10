@@ -80,9 +80,9 @@ console.log(word.name)
             <p class="words-title">Language level: ${word.languagelevel}</p>
             <p class="words-title">Alphabet: ${alphabettext}</p>
             <p class="words-title">Definition: ${word.description}</p>
+            
             <audio controls id='audio'>
                 <source src="audio/${word.name}.mp3" type="audio/mpeg">
-
             </audio>
         </div>
     `

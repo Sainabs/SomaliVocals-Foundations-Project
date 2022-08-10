@@ -45,13 +45,11 @@ ol{
   font-weight: bolder;
   border:solid black;
   padding: 3px;
-  
 } 
 
 a{
   color: black;
   text-decoration: none;
-  
 }
 
 form h3 {
@@ -101,8 +99,7 @@ form h1 {
 }
 
 button {
-   background-color: rgb(107, 176, 217);
-  /* //border: 1px solid rgb(27, 35, 35); rgb(107, 176, 217);  */ 
+  background-color: rgb(107, 176, 217); 
   width: 75px;
   height: 40px;
   color: rgb(19, 24, 27);
@@ -154,18 +151,6 @@ input[type='password'] {
   justify-content: center;
   align-items: center;
 }
-
-/* .user-card {
-  background-color: rgb(12, 13, 14);
-  width: 300px;
-  margin: 20px; 
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 12px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-} */
 
 .username {
   font-size: 18px;

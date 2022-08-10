@@ -5,7 +5,6 @@ body{
     align-items: center;
     background: url(./images/learn-image.png) no-repeat center center fixed;
     background-size: cover;
-
 }
     
 h1{ 
@@ -31,7 +30,6 @@ ol{
     display: flex;
     font-size: large;
     font-weight: bold;
-    
 } 
 
 
@@ -47,11 +45,9 @@ ol{
     border:solid black;
     padding: 3px;
     text-decoration: none;
-    
     justify-content: space-evenly;
-    
-    
 } 
+
 a{
     color: black;
     text-decoration: none;
@@ -72,7 +68,6 @@ h2{
     justify-content: center;
     text-align: center;
     width: 500px;
-
 }
 
 
@@ -83,7 +78,6 @@ h2{
 
 .btn{
     background-color: rgb(107, 176, 217);
-    
     color: rgb(19, 24, 27);
     border: solid;
     margin: 5px; 
