@@ -49,33 +49,39 @@ body{
         text-decoration: none;   
     }
     
-    
+    div{
+        text-align: center;
+        align-content: center;
+        color: rgb(90, 15, 15); 
+        font-size:medium;
+    }
     
     
     .info{
-        width: 470px;
+        width: 490px;
         background-color: rgb(223, 205, 182);
         border: 13px solid rgb(255, 168, 86);
-        text-align: center;
-        align-items: center;
+        padding: 15px;
     }
     
-    p{
+    /* p{
         font-size: larger;
         text-align: center;
         align-items: center;
         color: rgb(90, 15, 15);  
-    }
+    } */
+    
     
     h2{
         font-size:xx-large;
         width:15em;
         text-align: center;
         color: black 
+        
     } 
     
     #books{
-       height: 380px;
+       height: 449px;
        color: rgb(106, 167, 167);
     }
     
