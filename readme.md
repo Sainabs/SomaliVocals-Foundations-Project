@@ -1,0 +1,4 @@
+Hi, my name is Sainab Sahal. Welcome to SomaliVocals, my capstone project for  foundations . SomaliVocals is a Somali language learning app designed to guide users to interact with the phonation of the language. 
+
+The problem space I explored for this application is how do I make learning a new language easier for busy or beginner users to conveniently learn and engage with the Somali language.
+My solution to this pain point is to create SomaliVocals, a Somali language learning app designed to guide users to interact with the phonation of the language. The app uses prominent phonological characteristics of the Somali language that form the foundation of the language, so the users will be able to pronounce and learn the alphabets and words easily.
